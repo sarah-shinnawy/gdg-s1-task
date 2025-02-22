@@ -10,7 +10,7 @@ namespace CalculatorApp
 
             do
             {
-                Console.Write("Enter the first number: ");
+                Console.Write("Enter the first number: ");   
                 int num1;
                 while (!int.TryParse(Console.ReadLine(), out num1))
                 {
